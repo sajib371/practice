@@ -1,0 +1,78 @@
+
+header{
+    background-color: rgba(245, 245, 220, 0.539);
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left center;
+    background-size: 650px 400px, 80px 570px;
+    /* background-origin: content-box; */
+    /* background-origin: content-box, content-box; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+nav h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+nav span{
+    color: orange;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px; 
+}
+nav a{
+    text-decoration: none;
+    color: rgb(53, 50, 50);
+    font-size: 18px;
+}
+nav button{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(240, 153, 47);
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+}
+.btn1{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(240, 153, 47);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 6px;
+    margin-right: 14px;
+}
+.btn2{
+    color: orange;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(240, 153, 47, 0.075);
+    border: 1px solid orange;
+    padding: 13px 30px;
+    border-radius: 6px; 
+}
+.btnone{
+    margin-top: 30px;
+}
+.left h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
